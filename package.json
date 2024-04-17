@@ -1,0 +1,31 @@
+{
+  "name": "etching-bedrock",
+  "version": "0.1.0",
+  "bin": {
+    "etching-bedrock": "bin/etching-bedrock.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.11.30",
+    "esbuild": "^0.20.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "aws-cdk": "2.137.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.554.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.554.0",
+    "aws-cdk-lib": "2.137.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
